@@ -1,4 +1,4 @@
-<template>
+<template xmlns:v-on="http://www.w3.org/1999/xhtml">
   <div class="container col-md-9 col-md-offset-2">
     <form class="form-horizontal col-md-5 col-md-offset-2">
         <div class="form-group">
@@ -61,7 +61,7 @@
                 <textarea class="form-control" rows="2" id="requirement"></textarea>
             </div>
         </div>
-      <button type="submit" class="btn btn-default">提交</button>
+      <button type="submit" class="btn btn-default" v-on:click="submit()">提交</button>
     </form>
       <div class="alert alert-success col-md-5 col-md-offset-2">提交成功</div>
   </div>
@@ -69,7 +69,22 @@
 
 <script>
 export default {
-  name: 'AddStu',
+    name: 'AddStu',
+    methods:{
+        submit(){
+            this.$http.post('http://39.104.60.7:8080/success/student/updateStudent',
+                    {
+                        firstName: 'Fred',
+                        lastName: 'Flintstone'
+                    })
+                    .then(function (response) {
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    })
+        }
+    },
 
 }
 </script>
