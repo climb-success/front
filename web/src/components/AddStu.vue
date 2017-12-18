@@ -17,7 +17,7 @@
         <div class="form-group">
             <div class="input-group">
                 <span class="input-group-addon">QQ：</span>
-                <input type="qq" class="form-control" id="qq" placeholder="QQ">
+                <input type="text" class="form-control" id="qq" placeholder="QQ">
             </div>
         </div>
         <div class="form-group">
