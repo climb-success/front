@@ -8,46 +8,77 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#top"><img src="src/assets/img/logo.jpg" height="36px" alt="Airlift"></a>
+                    <a class="navbar-brand" href="#">
+                        <img src="src/assets/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
+                    </a>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li style="padding-left: 4px;">
-                            <a class="btn btn-primary navbar-btn"
-                               style="width:130px; line-height:36px;min-height:36px;padding-top:0px;padding-bottom:0px;
-                               background-color:dodgerblue;color:#fff" href="#">登录</a>
-                        </li>
-                        <li style="padding-left: 4px;">
-                            <a class="btn btn-default navbar-btn"
-                               style="width:130px; line-height:36px;min-height:36px;padding-top:0px;padding-bottom:0px;
-                               background-color:papayawhip;color:#b3d8ff" href="#">注册</a>
-                        </li>
+                <div class="navbar-collapse collapse"style="margin-left: 250px">
+                    <ul class="nav navbar-nav navbar-mid">
+                        <li class=""><a href="/#/home"><strong>网站首页</strong> <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#"><strong>专业课1对1</strong> <span class="sr-only">(current)</span></a></li>
+                        <!--<li class="dropdown">-->
+                            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+                            <!--<ul class="dropdown-menu">-->
+                                <!--<li><a href="#">Action</a></li>-->
+                                <!--<li><a href="#">Another action</a></li>-->
+                                <!--<li><a href="#">Something else here</a></li>-->
+                                <!--<li role="separator" class="divider"></li>-->
+                                <!--<li><a href="#">Separated link</a></li>-->
+                                <!--<li role="separator" class="divider"></li>-->
+                                <!--<li><a href="#">One more separated link</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
                     </ul>
                 </div>
             </div>
         </div>
         <div id="headerwrap">
-            <div class="container">
-                <div style="text-align:center;">
-                    <img class="grow" src="src/assets/img/logo.jpg" width="110px" style="margin-top: 80px;">
-                    <h1>最专业的考研专业课 &amp; <strong>VIP考研</strong>.</h1>
-                    <br>
-                    <div class="form-inline">
-                        <div class="form-group">
-                            <a href="#" class="btn btn-danger btn-lg" style="border:none; padding: 5px; width: 280px;">查询你要考的专业<i style="color:#ffffff;" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            <div class="row text-center">
+                <div id="mid" class="col-lg-12">
+                    <div data-ride="carousel" class="carousel slide" id="carousel-container">
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <img src="src/assets/img/banner_1.jpg" class="img-responsive center-block">
+                            </div>
+                            <div class="item active">
+                                <img src="src/assets/img/banner_2.jpg"  class="img-responsive center-block">
+                            </div>
+                            <div class="item">
+                                <img src="src/assets/img/banner_4.jpg" class="img-responsive center-block">
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="row text-center" style="margin-bottom: 0px;">
-                        <div class="col-lg-12">
-                            <img src="src/assets/img/yanlumanman.jpg" class="img-responsive center-block">
-                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-slide-to="0" data-target="#carousel-container"></li>
+                            <li data-slide-to="1" data-target="#carousel-container"></li>
+                            <li data-slide-to="2" data-target="#carousel-container" class="active"></li>
+                        </ol>
+                        <a data-slide="prev" href="#carousel-container" class="left carousel-control">
+                            <span class="glyphicon glyphicon-arrow-left"></span>
+                        </a>
+                        <a data-slide="next" href="#carousel-container" class="right carousel-control">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container" id="how"
-             style="margin-top: 30px; ">
+
+        <div class="row" id="part1">
+            <div class="col-md-offset-2">
+                <h2 class="tit">
+                    <img src="src/assets/img/part1Tit.jpg">
+                </h2>
+                <ul class="content">
+                    <li>
+                        <img src="src/assets/img/part1Img01.jpg">
+                    </li>
+                    <li>
+                        <img src="src/assets/img/part1Img02.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="how" style="margin-top: 30px; ">
             <h2 class="art-title text-center">千挑万选<strong style="font-size: 58px;margin: 0 5px;">好</strong>老师</h2>
                 <div class="col-md-4">
                     <h3 class="tea-title">
@@ -110,53 +141,43 @@
                     </div>
                 </div>
         </div>
+        <hr>
         <div class="container">
-            <div class="container">
-                <h2 class="art-title">
-                    在线教育，优选全国好老师
-                </h2>
-                <p class="sub-title">
-                    打破时间地域限制，帮你找到最适合的好老师
-                </p>
-
-                <div class="aside" style="background-image: url('//1v1-material-qiniu.xueba100.com/fudao/img/map.f044064.jpg'); ">
-                    什么是好老师？
-                    <ul style="margin-top: 30px; color:white">
-                        <li class="tea-style">
-                            <img data-original="//1v1-material-qiniu.xueba100.com/fudao/img/circle.04813db.png" class="style-icon lazy" width="16" height="16" src="//1v1-material-qiniu.xueba100.com/fudao/img/circle.04813db.png">
-                            <div class="word">
-                                <h3>高学历</h3>
-                                知名院校毕业名师
-                            </div>
-                        </li>
-                        <li class="tea-style">
-                            <img data-original="//1v1-material-qiniu.xueba100.com/fudao/img/circle.04813db.png" class="style-icon lazy" width="16" height="16" src="//1v1-material-qiniu.xueba100.com/fudao/img/circle.04813db.png">
-                            <div class="word">
-                                <h3>高能力</h3>
-                                归纳方法，总结问题
-                            </div>
-                        </li>
-                        <li class="tea-style">
-                            <img data-original="//1v1-material-qiniu.xueba100.com/fudao/img/circle.04813db.png" class="style-icon lazy" width="16" height="16" src="//1v1-material-qiniu.xueba100.com/fudao/img/circle.04813db.png">
-                            <div class="word">
-                                <h3>懂考点</h3>
-                                紧抓考点命题趋势，同步考纲
-                            </div>
-                        </li>
-                    </ul>
+            <h2 class="">
+                往年录取的考生
+            </h2>
+            <p class="sub-title">
+            </p>
+            <div class="col-md-offset-2">
+                <div class="wrap1200">
+                    <div class="byz">
+                        <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217020059625.png" width="310" height="200">
+                        <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217104205529.png" width="310" height="200">
+                        <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217103717470.png" width="310" height="200">
+                        <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217024033398.png" width="310" height="200">
+                        <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217024153381.jpg" width="310" height="200">
+                        <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217024249462.jpg" width="310" height="200">
+                    </div>
                 </div>
             </div>
         </div>
+        <hr>
         <div class="footer">
+            <div class="row col-md-offset-1">
+                <div class="focusus fl">
+                    <h3 class="title">合作机构</h3>
+                    <img src="src/assets/img/hezuo.jpg">
+                    <div class="split"></div>
+                </div>
+            </div>
             <div class="container text-center" >
+
                 <div class="clearfix">
-                    <img  src="src/assets/img/logo.jpg" height="50px" alt="Airlift">
                     <div class="focusus fl">
                         <h3 class="title">关注我们</h3>
                         <img src="src/assets/img/wei.jpg">
                         <div class="split"></div>
                     </div>
-
                 </div>
 
                 <div class="f-link" style="margin-top:0">
