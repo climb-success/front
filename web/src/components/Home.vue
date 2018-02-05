@@ -9,7 +9,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="src/assets/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
+                        <img src="../assets/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse"style="margin-left: 250px">
@@ -38,13 +38,13 @@
                     <div data-ride="carousel" class="carousel slide" id="carousel-container">
                         <div class="carousel-inner">
                             <div class="item">
-                                <img src="src/assets/img/banner_1.jpg" class="img-responsive center-block">
+                                <img src="../assets/img/banner_1.jpg" class="img-responsive center-block">
                             </div>
                             <div class="item active">
-                                <img src="src/assets/img/banner_2.jpg"  class="img-responsive center-block">
+                                <img src="../assets/img/banner_2.jpg"  class="img-responsive center-block">
                             </div>
                             <div class="item">
-                                <img src="src/assets/img/banner_4.jpg" class="img-responsive center-block">
+                                <img src="../assets/img/banner_4.jpg" class="img-responsive center-block">
                             </div>
                         </div>
                         <ol class="carousel-indicators">
@@ -66,14 +66,14 @@
         <div class="row" id="part1">
             <div class="col-md-offset-2">
                 <h2 class="tit">
-                    <img src="src/assets/img/part1Tit.jpg">
+                    <img src="../assets/img/part1Tit.jpg">
                 </h2>
                 <ul class="content">
                     <li>
-                        <img src="src/assets/img/part1Img01.jpg">
+                        <img src="../assets/img/part1Img01.jpg">
                     </li>
                     <li>
-                        <img src="src/assets/img/part1Img02.jpg">
+                        <img src="../assets/img/part1Img02.jpg">
                     </li>
                 </ul>
             </div>
@@ -166,7 +166,7 @@
             <div class="row col-md-offset-1">
                 <div class="focusus fl">
                     <h3 class="title">合作机构</h3>
-                    <img src="src/assets/img/hezuo.jpg">
+                    <img src="../assets/img/hezuo.jpg">
                     <div class="split"></div>
                 </div>
             </div>
