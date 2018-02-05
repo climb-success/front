@@ -172,7 +172,7 @@
                 <div class="clearfix">
                     <div class="focusus fl">
                         <h3 class="title">关注我们</h3>
-                        <img src="src/assets/img/wei.jpg">
+                        <img src="../assets/img/wei.jpg">
                         <div class="split"></div>
                     </div>
                 </div>
