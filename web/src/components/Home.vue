@@ -9,7 +9,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="src/assets/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
+                        <img src="../../static/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse"style="margin-left: 250px">
@@ -66,14 +66,14 @@
         <div class="row" id="part1">
             <div class="col-md-offset-2">
                 <h2 class="tit">
-                    <img src="src/assets/img/part1Tit.jpg">
+                    <img src="../../static/img/part1Tit.jpg">
                 </h2>
                 <ul class="content">
                     <li>
-                        <img src="src/assets/img/part1Img01.jpg">
+                        <img src="../../static/img/part1Img01.jpg">
                     </li>
                     <li>
-                        <img src="src/assets/img/part1Img02.jpg">
+                        <img src="../../static/img/part1Img02.jpg">
                     </li>
                 </ul>
             </div>
@@ -166,7 +166,7 @@
             <div class="row col-md-offset-1">
                 <div class="focusus fl">
                     <h3 class="title">合作机构</h3>
-                    <img src="src/assets/img/hezuo.jpg">
+                    <img src="../../static/img/hezuo.jpg">
                     <div class="split"></div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                 <div class="clearfix">
                     <div class="focusus fl">
                         <h3 class="title">关注我们</h3>
-                        <img src="src/assets/img/wei.jpg">
+                        <img src="../../static/img/wei.jpg">
                         <div class="split"></div>
                     </div>
                 </div>
