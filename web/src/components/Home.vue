@@ -64,7 +64,7 @@
         </div>
 
         <div class="row" id="part1">
-            <div class="col-md-offset-2">
+            <div class="text-center">
                 <h2 class="tit">
                     <img src="../../static/img/part1Tit.jpg">
                 </h2>
@@ -78,7 +78,7 @@
                 </ul>
             </div>
         </div>
-        <div class="container" id="how" style="margin-top: 30px; ">
+        <div class="container text-center" id="how" style="margin-top: 30px; ">
             <h2 class="art-title text-center">千挑万选<strong style="font-size: 58px;margin: 0 5px;">好</strong>老师</h2>
                 <div class="col-md-4">
                     <h3 class="tea-title">
@@ -142,13 +142,13 @@
                 </div>
         </div>
         <hr>
-        <div class="container">
-            <h2 class="">
+        <div class="container text-center">
+            <h3 class="">
                 往年录取的考生
-            </h2>
+            </h3>
             <p class="sub-title">
             </p>
-            <div class="col-md-offset-2">
+            <div class="">
                 <div class="wrap1200">
                     <div class="byz">
                         <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217020059625.png" width="310" height="200">
@@ -162,8 +162,8 @@
             </div>
         </div>
         <hr>
-        <div class="footer">
-            <div class="row col-md-offset-1">
+        <div class="footer text-center">
+            <div class="row">
                 <div class="focusus fl">
                     <h3 class="title">合作机构</h3>
                     <img src="../../static/img/hezuo.jpg">
