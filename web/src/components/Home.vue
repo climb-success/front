@@ -9,7 +9,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="src/assets/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
+                        <img src="../../static/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse"style="margin-left: 250px">
@@ -38,13 +38,13 @@
                     <div data-ride="carousel" class="carousel slide" id="carousel-container">
                         <div class="carousel-inner">
                             <div class="item">
-                                <img src="src/assets/img/banner_1.jpg" class="img-responsive center-block">
+                                <img src="../../static/img/banner_1.jpg" class="img-responsive center-block">
                             </div>
                             <div class="item active">
-                                <img src="src/assets/img/banner_2.jpg"  class="img-responsive center-block">
+                                <img src="../../static/img/banner_2.jpg"  class="img-responsive center-block">
                             </div>
                             <div class="item">
-                                <img src="src/assets/img/banner_4.jpg" class="img-responsive center-block">
+                                <img src="../../static/img/banner_3.jpg" class="img-responsive center-block">
                             </div>
                         </div>
                         <ol class="carousel-indicators">
@@ -64,23 +64,23 @@
         </div>
 
         <div class="row" id="part1">
-            <div class="col-md-offset-2">
+            <div class="text-center">
                 <h2 class="tit">
-                    <img src="src/assets/img/part1Tit.jpg">
+                    <img src="../../static/img/part1Tit.jpg">
                 </h2>
                 <ul class="content">
                     <li>
-                        <img src="src/assets/img/part1Img01.jpg">
+                        <img src="../../static/img/part1Img01.jpg">
                     </li>
                     <li>
-                        <img src="src/assets/img/part1Img02.jpg">
+                        <img src="../../static/img/part1Img02.jpg">
                     </li>
                 </ul>
             </div>
         </div>
         <div class="container" id="how" style="margin-top: 30px; ">
             <h2 class="art-title text-center">千挑万选<strong style="font-size: 58px;margin: 0 5px;">好</strong>老师</h2>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
                     <h3 class="tea-title">
                         高学历高能力老师执教
                     </h3>
@@ -143,12 +143,12 @@
         </div>
         <hr>
         <div class="container">
-            <h2 class="">
+            <h2 class="text-center">
                 往年录取的考生
             </h2>
             <p class="sub-title">
             </p>
-            <div class="col-md-offset-2">
+            <div class="text-center">
                 <div class="wrap1200">
                     <div class="byz">
                         <img src="http://kaoyan.wanxue.cn/uploadfile/2017/0217/20170217020059625.png" width="310" height="200">
@@ -162,24 +162,20 @@
             </div>
         </div>
         <hr>
-        <div class="footer">
-            <div class="row col-md-offset-1">
+        <div class="footer text-center">
+            <div class="">
                 <div class="focusus fl">
-                    <h3 class="title">合作机构</h3>
-                    <img src="src/assets/img/hezuo.jpg">
+                    <h2 class="title">合作机构</h2>
+                    <img src="../../static/img/hezuo.jpg">
                     <div class="split"></div>
                 </div>
             </div>
             <div class="container text-center" >
-
-                <div class="clearfix">
-                    <div class="focusus fl">
-                        <h3 class="title">关注我们</h3>
-                        <img src="src/assets/img/wei.jpg">
-                        <div class="split"></div>
-                    </div>
+                <div class="">
+                    <h2 class="title">关注我们</h2>
+                    <img src="../../static/img/wei.jpg">
+                    <div class="split"></div>
                 </div>
-
                 <div class="f-link" style="margin-top:0">
                 <span class="link">上海斯克赛斯科技有限公司 ©2015－2016, All Rights Reserved 沪ICP备14016022号-4</span>
                 <div style="margin:0 auto;padding:10px 0">
