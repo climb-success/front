@@ -37,20 +37,20 @@
                 <div id="mid" class="col-lg-12">
                     <div data-ride="carousel" class="carousel slide" id="carousel-container">
                         <div class="carousel-inner">
-                            <div class="item">
-                                <img src="src/assets/img/banner_1.jpg" class="img-responsive center-block">
-                            </div>
                             <div class="item active">
-                                <img src="src/assets/img/banner_2.jpg"  class="img-responsive center-block">
+                                <img src="../../static/img/banner_1.jpg" class="img-responsive center-block">
                             </div>
                             <div class="item">
-                                <img src="src/assets/img/banner_4.jpg" class="img-responsive center-block">
+                                <img src="../../static/img/banner_2.jpg"  class="img-responsive center-block">
+                            </div>
+                            <div class="item">
+                                <img src="../../static/img/banner_3.jpg" class="img-responsive center-block">
                             </div>
                         </div>
                         <ol class="carousel-indicators">
-                            <li data-slide-to="0" data-target="#carousel-container"></li>
+                            <li data-slide-to="0" data-target="#carousel-container" class="active"></li>
                             <li data-slide-to="1" data-target="#carousel-container"></li>
-                            <li data-slide-to="2" data-target="#carousel-container" class="active"></li>
+                            <li data-slide-to="2" data-target="#carousel-container"></li>
                         </ol>
                         <a data-slide="prev" href="#carousel-container" class="left carousel-control">
                             <span class="glyphicon glyphicon-arrow-left"></span>
