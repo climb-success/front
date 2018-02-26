@@ -1,8 +1,8 @@
 <template>
-    <div class="row">
+    <div class="row" style="background-color: white">
         <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header">
+                <div class="navbar-header" style="background-color: white">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -12,10 +12,10 @@
                         <img src="../../static/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
                     </a>
                 </div>
-                <div class="navbar-collapse collapse"style="margin-left: 250px">
+                <div class="navbar-collapse collapse" style="margin-left: 250px;background-color: white">
                     <ul class="nav navbar-nav navbar-mid">
-                        <li class=""><a href="/#/home"><strong>网站首页</strong> <span class="sr-only">(current)</span></a></li>
-                        <li class=""><a href="#"><strong>专业课1对1</strong> <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="/#/home"><h5><strong>网站首页</strong></h5> <span class="sr-only">(current)</span></a></li>
+                        <li class=""><a href="#"><h5><strong>专业课1对1</strong></h5> <span class="sr-only">(current)</span></a></li>
                         <!--<li class="dropdown">-->
                             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
                             <!--<ul class="dropdown-menu">-->
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div id="headerwrap">
+        <div id="headerwrap" style="margin-top: 50px">
             <div class="row text-center">
                 <div id="mid" class="col-lg-12">
                     <div data-ride="carousel" class="carousel slide" id="carousel-container">
@@ -40,7 +40,7 @@
                             <div class="item">
                                 <img src="../../static/img/banner_1.jpg" class="img-responsive center-block">
                             </div>
-                            <div class="item active">
+                            <div class="item">
                                 <img src="../../static/img/banner_2.jpg"  class="img-responsive center-block">
                             </div>
                             <div class="item">
@@ -64,6 +64,7 @@
         </div>
 
         <div class="row" id="part1">
+<<<<<<< HEAD
             <div class="text-center">
                 <h2 class="tit">
                     <img src="../../static/img/part1Tit.jpg">
@@ -167,17 +168,15 @@
                 <div class="focusus fl">
                     <h2 class="title">合作机构</h2>
                     <img src="../../static/img/hezuo.jpg">
-                    <div class="split"></div>
                 </div>
             </div>
             <div class="container text-center" >
                 <div class="">
                     <h2 class="title">关注我们</h2>
                     <img src="../../static/img/wei.jpg">
-                    <div class="split"></div>
                 </div>
                 <div class="f-link" style="margin-top:0">
-                <span class="link">上海斯克赛斯科技有限公司 ©2015－2016, All Rights Reserved 沪ICP备14016022号-4</span>
+                <span class="link">上海誊斐教育有限公司 ©2015－2016, All Rights Reserved 沪ICP备14016022号-4</span>
                 <div style="margin:0 auto;padding:10px 0">
                     <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702003170" style="display:inline-block" class="link" looyu_bound="1">
                         <span style="margin:0 0 0 5px">沪公网安备 31010702003170号</span>
