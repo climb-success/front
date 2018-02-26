@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div id="headerwrap">
+        <div id="headerwrap" style="margin-top: 50px">
             <div class="row text-center">
                 <div id="mid" class="col-lg-12">
                     <div data-ride="carousel" class="carousel slide" id="carousel-container">
@@ -53,7 +53,7 @@
                             <li data-slide-to="2" data-target="#carousel-container"></li>
                         </ol>
                         <a data-slide="prev" href="#carousel-container" class="left carousel-control">
-                            <span class="glyphicon glyphicon-arrow-left"></span>
+                            <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
                         <a data-slide="next" href="#carousel-container" class="right carousel-control">
                             <span class="glyphicon glyphicon-chevron-right"></span>
