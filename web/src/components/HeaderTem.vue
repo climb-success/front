@@ -1,0 +1,30 @@
+<template xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../../static/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse"style="margin-left: 250px">
+                <ul class="nav navbar-nav navbar-mid">
+                    <li class=""><a href="/#/home"><strong>网站首页</strong> <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="#"><strong>专业课1对1</strong> <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</template>
+
+<script>
+export default {
+    name: 'HeaderTem'
+
+}
+</script>
