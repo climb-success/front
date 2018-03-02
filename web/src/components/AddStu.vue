@@ -1,4 +1,4 @@
-<template xmlns:v-on="http://www.w3.org/1999/xhtml">
+<template xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
   <div class="container col-md-9 col-md-offset-2">
     <form class="form-horizontal col-md-5 col-md-offset-2">
         <div class="form-group">
@@ -63,7 +63,7 @@
         <!--</div>-->
       <button type="submit" class="btn btn-default" v-on:click="submit()">提交</button>
     </form>
-      <div class="alert alert-success col-md-5 col-md-offset-2">提交成功</div>
+      <div class="alert alert-success col-md-5 col-md-offset-2" v-bind:class="{hidden: isHidden}">提交成功</div>
   </div>
 </template>
 
@@ -72,14 +72,21 @@ export default {
     name: 'AddStu',
     data(){
         return {
-            userInfo:{id:0,name:null,telePhone:null,schoolId:0,professionalId:0}
+            userInfo:{id:0,name:null,telePhone:null,schoolId:0,professionalId:0},
+            isHidden:true
         }
     },
     methods:{
         submit(){
+            const self = this;
             this.$http.post('http://39.104.60.7:8080/success/student/updateStudent', this.userInfo)
                 .then(function (response) {
-                    console.log(response.data);
+                    if(response.data=='success'){
+                        self.isHidden=false;
+                        setTimeout(function (){//延迟刷新
+                            location.reload();
+                        }, 1500);
+                    }
                 })
                 .catch(function (error) {
                     console.log(error);
