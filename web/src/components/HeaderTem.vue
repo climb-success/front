@@ -8,13 +8,14 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="../../static/img/logo.jpg" style="position: relative; bottom: 12px"  alt="Airlift">
+                    <img src="../../static/img/logo.jpg" style="position: relative; bottom: 12px"  alt="">
                 </a>
             </div>
-            <div class="navbar-collapse collapse"style="margin-left: 250px">
+            <div class="navbar-collapse collapse" style="margin-left: 250px">
                 <ul class="nav navbar-nav navbar-mid">
-                    <li class=""><a href="/#/home"><strong>网站首页</strong> <span class="sr-only">(current)</span></a></li>
-                    <li class=""><a href="#"><strong>专业课1对1</strong> <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="/#/home"><span class="glyphicon glyphicon-grain"><strong> 网站首页</strong> </span></a></li>
+                    <li class=""><a href="#"> <span class="glyphicon glyphicon-bed"><strong> 专业课1对1</strong></span></a></li>
+                    <li class=""><a href="/#/about"> <span class="glyphicon glyphicon-glass"><strong> 关于我们</strong></span></a></li>
                 </ul>
             </div>
         </div>
@@ -28,3 +29,12 @@ export default {
 
 }
 </script>
+<style>
+    .navbar{
+        background-color:white;
+    }
+    .navbar-nav{
+        font-family: "仿宋";
+        font-size: 15px;
+    }
+</style>

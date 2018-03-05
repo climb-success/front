@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-
+        <hr>
         <div class="row" id="part1">
             <div class="text-center">
                 <h2 class="tit">
@@ -47,6 +47,7 @@
                 </ul>
             </div>
         </div>
+        <hr>
         <div class="container text-center" id="how" style="margin-top: 30px; ">
             <h2 class="art-title text-center">千挑万选<strong style="font-size: 58px;margin: 0 5px;">好</strong>老师</h2>
                 <div class="col-md-4">
@@ -134,7 +135,7 @@
         <div class="footer text-center">
             <div class="row">
                 <div class="focusus fl">
-                    <h3 class="title">合作机构</h3>
+                    <h2 class="title">合作机构</h2>
                     <img src="../../static/img/hezuo.jpg">
                     <div class="split"></div>
                 </div>
@@ -142,17 +143,16 @@
             <div class="container text-center" >
                 <div class="clearfix">
                     <div class="focusus fl">
-                        <h3 class="title">关注我们</h3>
+                        <h2 class="title">关注我们</h2>
                         <img src="../../static/img/wei.jpg">
                         <div class="split"></div>
                     </div>
                 </div>
-
                 <div class="f-link" style="margin-top:0">
-                <span class="link">上海斯克赛斯科技有限公司 ©2015－2016, All Rights Reserved 沪ICP备14016022号-4</span>
+                <span class="link">上海誊斐教育科技有限公司 2018 All Rights Reserved 沪ICP备18005879号-1</span>
                 <div style="margin:0 auto;padding:10px 0">
-                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702003170" style="display:inline-block" class="link" looyu_bound="1">
-                        <span style="margin:0 0 0 5px">沪公网安备 31010702003170号</span>
+                    <a target="_blank" href="http://www.miitbeian.gov.cn/" style="display:inline-block" class="link" looyu_bound="1">
+                        <span style="margin:0 0 0 5px">沪公网安备 18005879号</span>
                     </a>
                 </div>
                 </div>
