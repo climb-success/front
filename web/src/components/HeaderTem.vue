@@ -16,6 +16,7 @@
                     <li class=""><a href="/#/home"><span class="glyphicon glyphicon-grain"><strong> 网站首页</strong> </span></a></li>
                     <li class=""><a href="#"> <span class="glyphicon glyphicon-bed"><strong> 专业课1对1</strong></span></a></li>
                     <li class=""><a href="/#/about"> <span class="glyphicon glyphicon-glass"><strong> 关于我们</strong></span></a></li>
+                    <li class=""><a href="/#/news"> <span class="glyphicon glyphicon-glass"><strong> 考研资讯</strong></span></a></li>
                 </ul>
             </div>
         </div>

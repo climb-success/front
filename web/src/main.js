@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import AddStu from './components/AddStu'
 import Home from './components/Home'
 import About from './components/About'
+import News from './components/News'
 import axios from 'axios';
 
 Vue.use(VueRouter);
@@ -16,7 +17,8 @@ Vue.prototype.$http = axios;
 const routes = [
     { path: '/index', component: AddStu },
     { path: '/home', component: Home },
-    { path: '/about', component: About}
+    { path: '/about', component: About},
+    { path: '/news', component: News}
 ];
 
 const router = new VueRouter({
