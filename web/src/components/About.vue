@@ -49,6 +49,16 @@
                 </div>
                 <div class="col-md-1"></div>
             </div>
+            <hr>
+            <div class="row text-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h2>联系我们</h2>
+                    <p>方老师：18321736761</p>
+                    <p>叶老师：18321767275</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
     </div>
 </template>
