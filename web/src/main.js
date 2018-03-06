@@ -17,6 +17,7 @@ Vue.prototype.$http = axios;
 const routes = [
     { path: '/index', component: AddStu },
     { path: '/home', component: Home },
+    { path: '/', redirect: '/home' },
     { path: '/about', component: About},
     { path: '/news', component: News}
 ];
