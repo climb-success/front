@@ -1,6 +1,7 @@
 <template xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
     <div class="row stu">
-        <div class="container col-md-9 col-md-offset-2">
+        <header-tem></header-tem>
+        <div class="container col-md-9 col-md-offset-2" style="margin-top: 80px">
             <form class="form-horizontal col-md-5 col-md-offset-2">
                 <div class="form-group">
                     <div class="input-group">
@@ -51,8 +52,13 @@
 
 <script>
 import { provinces } from '../config/index';
+import HeaderTem from './HeaderTem.vue';
+
 export default {
     name: 'AddStu',
+    components:{
+        HeaderTem
+    },
     data(){
         return {
             userInfo:{id:0,name:null,telePhone:null,schoolId:0,professionalId:0},
