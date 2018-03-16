@@ -109,3 +109,8 @@ export default {
 
 }
 </script>
+<style>
+    body {
+        background-image: url("../../static/img/1v1.jpg") ;
+    }
+</style>
