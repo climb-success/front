@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <header-tem></header-tem>
-        <div class="container about" style="margin-top: 50px">
+        <div class="container news" style="margin-top: 50px">
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
@@ -37,8 +37,13 @@
     }
 </script>
 <style>
-    .about{
+    .news{
         font-size: 16px;
         line-height: 26px;
+        width: 100%;
+        height: 100%;
+        background-color: #d6e9c6;
+
     }
+
 </style>

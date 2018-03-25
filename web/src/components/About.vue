@@ -76,5 +76,7 @@
     .about{
         font-size: 16px;
         line-height: 26px;
+        background-color: #d6e9c6;
+
     }
 </style>
