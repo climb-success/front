@@ -7,6 +7,7 @@ import AddStu from './components/AddStu'
 import Home from './components/Home'
 import About from './components/About'
 import News from './components/News'
+import StuRequirement from './components/StuRequirement'
 import axios from 'axios';
 
 Vue.use(VueRouter);
@@ -19,7 +20,8 @@ const routes = [
     { path: '/home', component: Home },
     { path: '/', redirect: '/home' },
     { path: '/about', component: About},
-    { path: '/news', component: News}
+    { path: '/news', component: News},
+    { path: '/stu-1v1', component: StuRequirement}
 ];
 
 const router = new VueRouter({
