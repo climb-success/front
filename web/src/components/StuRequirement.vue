@@ -54,7 +54,7 @@ export default {
     methods:{
         submit(){
             const self = this;
-            this.$http.post('http://119.27.181.246:8090/student-1v1', this.user_info)
+            this.$http.post('http://119.27.181.246/student-1v1', this.user_info)
                 .then(function (response) {
                     console.log(response);
                     // if(response.data=='success'){
