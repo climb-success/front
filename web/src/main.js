@@ -10,6 +10,12 @@ import News from './components/News'
 import StuRequirement from './components/StuRequirement'
 import axios from 'axios';
 
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+
+
+Vue.use(MintUI);
+
 Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
