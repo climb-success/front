@@ -204,12 +204,10 @@
                     <mt-field placeholder="目标学校" v-model="user_info.goal_school"></mt-field>
                     <mt-field placeholder="目标专业" v-model="user_info.goal_profession"></mt-field>
                 </div>
-
-                <button id="J_submit">提交</button>
+                <button type="submit" v-on:click="submit()">提交</button>
             </div>
         </div>
         <a class="fixConsult" href="//bang.kaoyan.com/redirect?sourceurl=//www.bangxuetang.com/zt/serviceWord?isapp=1 ">申请辅导</a>
-
     </div>
 </template>
 
