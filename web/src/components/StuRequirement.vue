@@ -213,7 +213,7 @@
 
 <script>
 import HeaderTem from './HeaderTem.vue';
-
+import { Toast } from 'mint-ui';
 export default {
     name: 'StuRequirement',
     components:{
@@ -228,19 +228,28 @@ export default {
     methods:{
         submit(){
             const self = this;
-            this.$http.post('http://119.27.181.246/student-1v1', this.user_info)
-                .then(function (response) {
-                    console.log(response);
-                    // if(response.data=='success'){
-                    //     self.isHidden=false;
-                    //     setTimeout(function (){//延迟刷新
-                    //         location.reload();
-                    //     }, 1500);
-                    // }
-                })
-                .catch(function (error) {
-                    console.log(error);
-                })
+            if(self.user_info.stu_name == '' || self.user_info.phone == '' || self.user_info.goal_school == '' || self.user_info.goal_profession == '' ){
+                Toast('有数据未填写，请完善');
+            }else {
+                this.$http.post('http://119.27.181.246/student-1v1', this.user_info)
+                    .then(function (response) {
+                        Toast({
+                            message: '提交成功',
+                            iconClass: 'icon icon-success'
+                        });
+                        if (response.status == 0) {
+                            setTimeout(function () {//延迟刷新
+                                location.reload();
+                            }, 1500);
+                        }
+                    })
+                    .catch(function (error) {
+                        Toast({
+                            message: '提交失败',
+                            iconClass: 'icon icon-success'
+                        });
+                    })
+            }
 
         },
     }
