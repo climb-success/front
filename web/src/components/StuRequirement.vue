@@ -6,38 +6,38 @@
         <div class="whyKyb">
             <div class="hd">
                 <span>为什么选择</span>
-                <h3>考研帮学长1对1？</h3>
+                <h3>VIP考研专业课1对1？</h3>
             </div>
             <div class="bd">
                 <div class="forBg">
                     <div class="forResource">
                         <div class="layout">
                             <div class="fhd">
-                                专业课学长资源全、选拔严
+                                高分学长学姐全覆盖、选拔严
                             </div>
                             <div class="fbd clearfix">
                                 <div class="reItem">
                                     <div class="reData">
-                                        <em>80</em><i>%</i>&nbsp;&nbsp;&nbsp;&nbsp;高校<br>专业课学长覆盖
+                                        <em>90</em><i>%</i>&nbsp;&nbsp;&nbsp;&nbsp;高校<br>专业课学长学姐覆盖
                                     </div>
                                     <div class="reImg">
-                                        <img src="http://img.kybimg.com/bangxuetang/images/pc/www/20181vs1/re01.png" alt="90%高校专业课学长覆盖">
+                                        <img src="../../static/img/stu-1vs1/re01.png" alt="90%高校专业课学长覆盖">
                                     </div>
                                 </div>
                                 <div class="reItem">
                                     <div class="reData">
-                                        <em>85</em><i>%</i>&nbsp;&nbsp;专业<br>学长专业覆盖
+                                        <em>95</em><i>%</i>&nbsp;&nbsp;专业<br>学长学姐专业覆盖
                                     </div>
                                     <div class="reImg">
-                                        <img src="http://img.kybimg.com/bangxuetang/images/pc/www/20181vs1/re02.png" alt="92%专业学长专业覆盖">
+                                        <img src="../../static/img/stu-1vs1/re02.png" alt="92%专业学长专业覆盖">
                                     </div>
                                 </div>
                                 <div class="reItem">
                                     <div class="reData">
-                                        <em>20</em><i>k+</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人<br>专业课学长人数
+                                        <em>20</em><i>k+</i>&nbsp;&nbsp;&nbsp;<br>专业课学长学姐人数
                                     </div>
                                     <div class="reImg">
-                                        <img src="http://img.kybimg.com/bangxuetang/images/pc/www/20181vs1/re03.png" alt="50w+人专业课学长人数">
+                                        <img src="../../static/img/stu-1vs1/re03.png" alt="20w+人专业课学长人数">
                                     </div>
                                 </div>
                             </div>
@@ -46,27 +46,27 @@
                 </div>
                 <div class="forSelect">
                     <div class="layout">
-                        <div class="shd">6层选拔 精选好学长</div>
+                        <div class="shd">精选优质学长学姐</div>
                         <div class="sbd clearfix">
                             <dl>
                                 <dt><em>Step1</em>海选</dt>
-                                <dd>在师资库中筛选目标院校专业高分学长</dd>
+                                <dd>在师资库中筛选目标院校专业高分学长学姐</dd>
                             </dl>
                             <dl>
                                 <dt><em>Step2</em>初筛</dt>
-                                <dd>核查学长的考研成绩及证件</dd>
+                                <dd>核查学长学姐的考研成绩及证件</dd>
                             </dl>
                             <dl>
                                 <dt><em>Step3</em>面试</dt>
-                                <dd>考察学长的专业功底及综合能力</dd>
+                                <dd>考察学长学姐的专业功底及综合能力</dd>
                             </dl>
                             <dl>
                                 <dt><em>Step4</em>笔试</dt>
-                                <dd>考察学长的授课思路及内容</dd>
+                                <dd>考察学长学姐的授课思路及内容</dd>
                             </dl>
                             <dl>
                                 <dt><em>Step5</em>试讲</dt>
-                                <dd>考察学长实际授课能力</dd>
+                                <dd>考察学长学姐实际授课能力</dd>
                             </dl>
                             <dl>
                                 <dt><em>Step6</em>录用</dt>
@@ -90,59 +90,51 @@
                                     <th>单价/课时(元)</th>
                                 </tr>
                                 <tr>
-                                    <td rowspan="12">定制一对一<br></td>
-                                    <td rowspan="3">普通专业</td>
+                                    <td rowspan="12">专属1对1辅导<br></td>
+                                    <td rowspan="4">一般专业</td>
                                     <td>20</td>
-                                    <td rowspan="12" style="width:26%;padding:0 1%">老师根据学生学情况：提供知识点精讲、重难点精讲专题串讲、历年真题解析与应试技巧指导、模拟测试</td>
-                                    <td rowspan="12">目标院校专业学长</td>
-                                    <td rowspan="3">275</td>
+                                    <td rowspan="12" style="width:26%;padding:0 1%">
+                                        提供基础知识点精讲、重难点精讲专题串讲、历年真题解析与应试技巧指导、模拟真题预测
+                                    </td>
+                                    <td rowspan="12">目标院校直系学长学姐辅导</td>
+                                    <td rowspan="3">200</td>
                                 </tr>
                                 <tr>
-
-                                    <td>28</td>
+                                    <td>32</td>
                                 </tr>
                                 <tr>
-
-                                    <td>36</td>
+                                    <td>40</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="3">新传、经管类</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4">语言、新传、经管类</td>
                                     <td>20</td>
-                                    <td rowspan="3">305</td>
+                                    <td rowspan="3">210</td>
                                 </tr>
                                 <tr>
-
-                                    <td>28</td>
+                                    <td>32</td>
                                 </tr>
                                 <tr>
-
-                                    <td>36</td>
+                                    <td>40</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="3">语言类</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4">金融、经济学类</td>
                                     <td>20</td>
-                                    <td rowspan="3">315</td>
+                                    <td rowspan="3">220</td>
                                 </tr>
                                 <tr>
-
-                                    <td>28</td>
+                                    <td>32</td>
                                 </tr>
                                 <tr>
-
-                                    <td>36</td>
+                                    <td>40</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="3">艺术类</td>
-                                    <td>20</td>
-                                    <td rowspan="3">395</td>
-                                </tr>
-                                <tr>
-
-                                    <td>28</td>
-                                </tr>
-                                <tr>
-
-                                    <td>36</td>
+                                    <td>60</td>
                                 </tr>
                                 <tr>
                                     <td colspan="6" class="remark">
@@ -165,22 +157,18 @@
                         <div class="layout">
                             <div class="monitorList clearfix">
                                 <div class="monitorItem">
-                                    <i class="iconsprint"></i>
                                     <b>授课准备</b>
                                     <p>了解学员基础<br>针对性安排教学计划</p>
                                 </div>
                                 <div class="monitorItem">
-                                    <i class="iconsprint icon02"></i>
                                     <b>授课中-针对学长</b>
                                     <p>全程监管<br>授课质量和授课进度</p>
                                 </div>
                                 <div class="monitorItem">
-                                    <i class="iconsprint icon03"></i>
                                     <b>授课中-针对学员</b>
                                     <p>全程督学<br>及时跟进课程反馈</p>
                                 </div>
                                 <div class="monitorItem">
-                                    <i class="iconsprint icon04"></i>
                                     <b>授课后</b>
                                     <p>回访跟进<br>及时解决授课疑问</p>
                                 </div>
@@ -190,6 +178,7 @@
                 </div>
             </div>
         </div>
+        <p id="stu-1v1" name="stu-1v1"></p>
 
         <div class="formApply">
             <div class="formHd">
@@ -207,7 +196,7 @@
                 <button type="submit" v-on:click="submit()">提交</button>
             </div>
         </div>
-        <a class="fixConsult" href="//bang.kaoyan.com/redirect?sourceurl=//www.bangxuetang.com/zt/serviceWord?isapp=1 ">申请辅导</a>
+        <a class="fixConsult" href="#stu-1v1">申请辅导</a>
     </div>
 </template>
 
@@ -261,7 +250,7 @@ export default {
         height: 1.64rem;
         padding-top: 5.00rem;
         position: relative;
-        background: url(http://img.kybimg.com/bangxuetang/images/m/www/20181vs1/1vs1banner.jpg) no-repeat;
+        background: url(../../static/img/stu-1vs1/1vs1banner.jpg) no-repeat;
         background-size: 100% auto;
     }
 
@@ -288,7 +277,7 @@ export default {
     }
 
     .fhd {
-        padding: .8rem 0 .73rem;
+        padding: .3rem 0 .73rem;
         font-size: 18px;
         text-align: center;
         background: #f6f6f6;
@@ -353,7 +342,7 @@ export default {
     }
 
     .forSelect .sbd {
-        padding: 0 .46rem 1.68rem;
+        /*padding: 0 .46rem 1.68rem;*/
         background: #f6f6f6;
     }
 
@@ -437,7 +426,7 @@ export default {
         display: block;
         width: .77rem;
         height: .77rem;
-        background: url(http://img.kybimg.com/bangxuetang/images/m/www/20181vs1/sprint.png) no-repeat;
+        background: url(../../static/img/stu-1vs1/sprint.png) no-repeat;
         background-position: 0 -6rem;
         background-size: 1rem;
         margin: 0 auto .46rem;
