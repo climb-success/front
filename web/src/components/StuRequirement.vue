@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="">
         <div class="banner-1vs1">
         </div>
 
@@ -80,7 +80,6 @@
                     <div class="fbd">
                         <div class="layout">
                             <table>
-                                <tbody>
                                 <tr>
                                     <th>产品类型</th>
                                     <th>科目</th>
@@ -97,7 +96,7 @@
                                         提供基础知识点精讲、重难点精讲专题串讲、历年真题解析与应试技巧指导、模拟真题预测
                                     </td>
                                     <td rowspan="12">目标院校直系学长学姐辅导</td>
-                                    <td rowspan="3">200</td>
+                                    <td rowspan="4">200</td>
                                 </tr>
                                 <tr>
                                     <td>32</td>
@@ -111,7 +110,7 @@
                                 <tr>
                                     <td rowspan="4">语言、新传、经管类</td>
                                     <td>20</td>
-                                    <td rowspan="3">210</td>
+                                    <td rowspan="4">210</td>
                                 </tr>
                                 <tr>
                                     <td>32</td>
@@ -125,7 +124,7 @@
                                 <tr>
                                     <td rowspan="4">金融、经济学类</td>
                                     <td>20</td>
-                                    <td rowspan="3">220</td>
+                                    <td rowspan="4">220</td>
                                 </tr>
                                 <tr>
                                     <td>32</td>
@@ -146,13 +145,12 @@
                                         通知：<br> 由于优质学长资源紧俏，越早报名越能抢占优秀学长！
                                     </td>
                                 </tr>
-                                </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
                 <div class="forMonitor forBg">
-                    <div class="fhd">教学班主任全程跟进监督</div>
+                    <div class="fhd">学管师全程跟进监督</div>
                     <div class="fbd">
                         <div class="layout">
                             <div class="monitorList clearfix">
@@ -161,7 +159,7 @@
                                     <p>了解学员基础<br>针对性安排教学计划</p>
                                 </div>
                                 <div class="monitorItem">
-                                    <b>授课中-针对学长</b>
+                                    <b>授课中-针对老师</b>
                                     <p>全程监管<br>授课质量和授课进度</p>
                                 </div>
                                 <div class="monitorItem">
@@ -479,7 +477,7 @@ export default {
         z-index: 5;
         line-height: 1.33rem;
         height: 1.33rem;
-        background: deepskyblue;
+        background: #CDC673;
         left: 0;
         bottom: 0;
         color: #fff;
