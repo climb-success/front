@@ -70,7 +70,7 @@
                             </dl>
                             <dl>
                                 <dt><em>Step6</em>录用</dt>
-                                <dd>正式成为考研帮认证老师</dd>
+                                <dd>正式成为VIP考研认证老师</dd>
                             </dl>
                         </div>
                     </div>
@@ -397,6 +397,7 @@ export default {
         font-size: 12px;
         font-weight: bold;
         background: #eee;
+        text-align: center;
     }
 
     .monitorList {
@@ -422,16 +423,6 @@ export default {
         box-sizing: border-box;
     }
 
-    .monitorList .monitorItem .iconsprint {
-        display: block;
-        width: .77rem;
-        height: .77rem;
-        background: url(../../static/img/stu-1vs1/sprint.png) no-repeat;
-        background-position: 0 -6rem;
-        background-size: 1rem;
-        margin: 0 auto .46rem;
-    }
-
     .monitorList .monitorItem b {
         font-size: 14px;
     }
@@ -441,10 +432,6 @@ export default {
         color: #666;
         padding: .26rem 0 0;
         line-height: 20px;
-    }
-
-    .iconsprint.icon02 {
-        background-position: 0 -7rem;
     }
 
     .formApply {
@@ -492,7 +479,7 @@ export default {
         z-index: 5;
         line-height: 1.33rem;
         height: 1.33rem;
-        background: #329ffe;
+        background: deepskyblue;
         left: 0;
         bottom: 0;
         color: #fff;
