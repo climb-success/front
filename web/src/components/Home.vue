@@ -134,11 +134,11 @@
         <hr>
         <div class="footer text-center">
             <div class="row">
-                <div class="focusus fl">
-                    <h2 class="title">合作机构</h2>
-                    <img src="../../static/img/hezuo.jpg">
-                    <div class="split"></div>
-                </div>
+                <!--<div class="focusus fl">-->
+                    <!--<h2 class="title">合作机构</h2>-->
+                    <!--<img src="../../static/img/hezuo.jpg">-->
+                    <!--<div class="split"></div>-->
+                <!--</div>-->
             </div>
             <div class="container text-center" >
                 <div class="clearfix">
